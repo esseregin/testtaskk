@@ -1,0 +1,20 @@
+.sorting {
+    display: flex;
+    padding: 5px 0px;
+}
+
+.sorting-list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+
+.sorting-list input{
+    cursor: pointer;
+}
+
+.sorting-list label{
+    margin:  0 5px;
+}
+

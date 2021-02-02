@@ -1,0 +1,19 @@
+.subway-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.subway-item span {
+    color: #999999;
+}
+
+.subway-circle {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid;
+    margin: 0 3px 0 0;
+    background: #f5f8fb;
+}

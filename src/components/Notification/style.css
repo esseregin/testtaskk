@@ -1,0 +1,35 @@
+.notification-wrapper {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #e0e0e070;
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: block;
+    pointer-events: auto;
+}
+
+.notification-dialog {
+    max-width: 25em;
+    position: relative;
+    margin: 5% auto;
+    padding: 1em 1em;
+    box-shadow: 0 0 3px #2196f3;
+}
+
+.notification-content {
+    font-size: 13px;
+}
+
+.notification-event {
+    display: flex;
+    justify-content: center;
+    row-gap: 39px;
+    column-gap: 2em;
+    margin-top: 1em;
+}

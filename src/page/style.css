@@ -1,0 +1,19 @@
+.wrapper {
+
+}
+
+.naw {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    box-shadow: 0px 0px 2px 0px #999c;
+    flex-wrap: wrap;
+}
+
+.list {
+    margin: 10px auto;
+    max-width: 640px;
+    max-height: 90vh;
+    overflow-y: auto;
+    transition: ease 0.5s
+}

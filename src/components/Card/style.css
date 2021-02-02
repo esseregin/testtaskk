@@ -1,0 +1,88 @@
+.card {
+    box-shadow: 0 0 3px 0 #999999b8;
+    margin: 1em;
+    padding: 1em;
+    background: #f5f8fb;
+}
+
+.card div, span{
+    background: #f5f8fb;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.card-address {
+    color: #999999;
+    font-family: sans-serif;
+}
+
+.card-subway {
+    color: #999999;
+    font-family: sans-serif;
+}
+
+.card-label {
+    text-align: end;
+}
+
+.card-label-item {
+    box-shadow: 0 0 3px 1px #d68e74;
+    border-radius: 3px;
+    padding: 4px 10px;
+}
+
+.card-add-favorites {
+    margin-left: auto;
+    margin-top: 1em;
+    cursor: pointer;
+    border-radius: 73%;
+    border: 2px solid #2196f3;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    color: #2196f3;
+}
+
+.card-add-favorites:hover {
+    opacity: 0.6;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-areas:
+    "title title label"
+    "address address favorites"
+    "subway subway favorites";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.grid-title {
+    grid-area: title;
+}
+
+.grid-address {
+    grid-area: address;
+}
+
+.grid-subway {
+    grid-area: subway;
+}
+
+.grid-label {
+    grid-area: label;
+}
+
+.grid-favorites {
+    grid-area: favorites;
+}
+
+@media (max-width: 560px) {
+    .card-label {
+        display: none;
+    }
+}
